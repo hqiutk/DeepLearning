@@ -4,23 +4,23 @@ Learning Python from Scratch
 
 ## Local python environment setup
 
-* download & install miniforge3. Cut and paste the following command to a terminal window
+* Download & install miniforge3. Cut and paste the following command to a terminal window
   ```
   cd $HOME/Downloads
   curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
   ```
 
-  Verify that you have downloaded the a file, for example: `Miniforge3-Darwin-arm64.sh` by doing a `ls`.
+  Verify that you have downloaded the file, for example: `Miniforge3-Darwin-arm64.sh` by doing a `ls`.
 
-* run the installation script, follow the prompt:
+* Run the installation script, follow the prompt:
   ```
   bash Miniforge3-$(uname)-$(uname -m).sh
   ```
-* after the installation, you should have `conda` command installed, verify it by:
+* After the installation, you should have `conda` command installed, verify it by:
   ```
   conda env list
   ```
-* let's install a new python environment, we name it as "pylearn". We explicitly specify a python version we like to uyse, which is 3.14.
+* Let's install a new python environment, we name it as "pylearn". We explicitly specify a python version we like to use, which is 3.14.
 
   ```
   conda create -n "pylearn" python=3.14
@@ -30,7 +30,7 @@ Learning Python from Scratch
   ```
   source activate pylearn
   ```
-* Once environment is activately, we can install jupyter
+* Once environment is activated, we can install jupyter
 
   ```
   pip install jupyterlab
