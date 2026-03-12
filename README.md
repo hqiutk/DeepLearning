@@ -65,7 +65,7 @@ Learning Python from Scratch
   proj1_student.ipynb (template)
   LeNet.ipynb (sample)
   Activations.ipynb (activation functions)
-  
+  ```
 
   
 
