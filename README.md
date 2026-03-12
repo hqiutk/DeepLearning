@@ -41,8 +41,31 @@ Learning Python from Scratch
   ```
   jupyter lab
   ```
-
   you should expect a browswer window open - and you can create a new notebook from the sratch, or work on existing notebooks.
+
+# Deep Learning Class Assignment
+* homework 1: supervised vs. unsupervised learning (review)
+  ```
+  hw1.ipynb (template)
+  hw1_sol.ipynb
+  ```
+* homework 2: single-layer neural network (perceptron)
+  ```
+  hw2.ipynb (template)
+  hw2_sol.ipynb
+  ```
+* homework 3: multi-layer perceptron (MLP)
+  ```
+  hw3.ipynb (template)
+  hw3_sol.ipynb
+  MLP.ipynb
+  ```
+* project 1: CNNs - the ins and outs
+  ```
+  proj1_student.ipynb (template)
+  LeNet.ipynb (sample)
+  Activations.ipynb (activation functions)
+  
 
   
 
